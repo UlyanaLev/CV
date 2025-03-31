@@ -1,0 +1,12 @@
+.content {}
+.content-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-column {
+    width: 30%;
+}
+.right-column {
+    width: 66%;
+}
