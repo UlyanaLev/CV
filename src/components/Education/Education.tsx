@@ -7,11 +7,10 @@ function Education() {
             <div className='education-wrapper'>
                 <h2 className='education-title'>Education</h2>
                 <div className='education-text'>
-                    Бакалавр компьютерных наук. Учебный центр 1. Москва
-                    2012
-                    Дуйские морковки обсуждают цены на недвижимость в Вульпутаne Whole ullamcorper lorem, застройщик с франшизой. 
-                    Но даже экологический волейбол порем. 
-                    Но даже на вынос, морковь тинцидент, подушка
+                    2016-2020
+                    Brest State Technical University
+                    Faculty of Engineering Systems and Ecology
+                    Specialities "Environmental Protection Activities" (1-33 01 07)
                 </div>
             </div>
         </div>

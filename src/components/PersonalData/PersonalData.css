@@ -6,22 +6,22 @@
     color: #313037;
     font-family: "Bebas Neue";
     padding-bottom: 8px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     border-bottom: 1px solid #313037;
 }
 .personal-data_text {
     display: flex;
     flex-direction: row;
+    margin: 8px 8px 8px 0;
 }
 .personal-data-text_title {
-    margin: 8px 8px 8px 0;
     color: #313037;
     font-size: 18px;
     font-weight: 600;
     font-family: "Bebas Neue";
 }
 .personal-data-text_discription {
-    margin: 8px 8px 8px 0;
+    padding-left: 5px;
     color: #313037;
     font-size: 18px;
     font-weight: 400;

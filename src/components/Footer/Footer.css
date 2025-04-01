@@ -1,0 +1,37 @@
+.footer {
+    background-image: url('../../assets/images/footer.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.footer-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-wrap {
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 12px;
+    cursor: pointer;
+    background-color: white; 
+    opacity: .7;
+    outline: none;
+}
+.footer-wrap:hover {
+    opacity: 1;
+}
+.footer-icons {
+    width: 20px;
+    height: 20px;
+}
+.footer-description {
+    color: #313037;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+    padding-left: 10px;
+}
