@@ -7,21 +7,20 @@ function Experience() {
             <div className='experience-wrapper'>
                 <h2 className='experience-title'>Experience</h2>
                 <div className='experience-text'>
-                    <h3 className='experience-text_title'>Front-End Developer </h3>
-                    <h4>Unisys Corporation Nov 2017- Dec 2019</h4>
-                    Worked as a part of Front-End Engineering (FEE) Center Of Excellence team which focuses on delivering class apart modernized UI design for various Unisys products by following Keep It Simple, Stupid (KISS)
-                    principle. Transformed from being a fresher to leading a group of developers in FEE Technology and Clean Coding Principles.
-                    Worked on enhancement & Ul modernization of various legacy
-                    Unisys products. Worked on the development of user interface for Stealth(identity)
-                    from scratch. Created Server-Side Rendering Template Engine Framework for Unisys products.
-                    Tools & Technology: HTML5, CSS3, Javascript, JQuery, Bootstrap4,
-                    Node JS, AJAX, Webpack Web Server: NGINX, Node webserver.
-                    IDE: Visual Studio Code
-                    Agile project management tool: JIRA
-                    Source Code Management tools: Git, Bitbucket, Sourcetree.
-                    Associate Engineer
-                    Unisys Aug 2016- Nov 2017
-                    Throughout my journey in this team, I have took ownership of two products of totally different domains ranging from a system component developed in Meta Assembly Language to a Middleware J2EE component (JCA) for Distributed Transaction Processing developed in Java.</div>
+                    <h3 className='experience-text_title'> Content Manager (Website Management) </h3>
+                    <h4 className='experience-text_subtitle'> Sewing Enterprise May 2023 - Aug 2024</h4>
+                    <li className='experience-text_discription'> Uploaded photos and descriptions of new clothing models on the company's 
+                    personal website, developed on the MODX CMS platform.</li>
+                    <li className='experience-text_discription'>Ensured the relevance and attractiveness of content for users.</li>
+                    <li className='experience-text_discription'>Populated online stores with photos and descriptions of new clothing models, 
+                    contributing to increased sales and improved user experience.</li>
+                    <li className='experience-text_discription'>Processed photos using Adobe Photoshop: editing, cropping, 
+                    and enhancing images to achieve high-quality visual content. Utilized various tools and filters to create appealing images.</li>
+                    <li className='experience-text_discription'>Communicated with online store managers via various messaging platforms 
+                    (e.g., WhatsApp, Telegram, Skype) to discuss new arrivals, clarify details, 
+                    and resolve any issues. Maintained effective interaction to ensure timely 
+                    updates on product information.</li>
+                </div>
             </div>
         </div>
     );

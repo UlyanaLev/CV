@@ -30,6 +30,28 @@
     font-family: "Bebas Neue";
     cursor: pointer;
 }
+.contacts-description-number {
+    margin: 5px;
+    color: #313037;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+    cursor: pointer;
+}
+.contacts-phones {
+    display: flex;
+    flex-direction: column;
+}
+.contacts-number {
+    display: flex;
+    flex-direction: row;
+}
+.contacts-icons-copy {
+    position: relative;
+    top: -2px;
+    margin-right: 8px;
+    cursor: pointer;
+}
 .notification {
     position: fixed;
     bottom: 20px;
