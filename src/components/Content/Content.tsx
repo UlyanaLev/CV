@@ -7,6 +7,7 @@ import Languages from '../Languages/Languages';
 import Education from '../Education/Education';
 import Courses from '../Courses/Courses';
 import Skills from '../Skills/Skills';
+import Download from '../Download/Download';
 
 function Content() {
 
@@ -20,6 +21,7 @@ function Content() {
                             <PersonalData></PersonalData>
                             <Languages></Languages>
                             <Skills></Skills>
+                            <Download></Download>
                         </div>
                         <div className="right-column">
                             <Summary></Summary>

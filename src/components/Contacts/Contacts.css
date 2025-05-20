@@ -21,6 +21,7 @@
 .contacts-icons {
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 .contacts-description {
     margin: 8px;
@@ -28,7 +29,6 @@
     font-size: 18px;
     font-weight: 400;
     font-family: "Bebas Neue";
-    cursor: pointer;
 }
 .contacts-description-number {
     margin: 5px;
@@ -38,17 +38,10 @@
     font-family: "Bebas Neue";
     cursor: pointer;
 }
-.contacts-phones {
-    display: flex;
-    flex-direction: column;
-}
-.contacts-number {
-    display: flex;
-    flex-direction: row;
-}
 .contacts-icons-copy {
     position: relative;
-    top: -2px;
+    top: -6px;
+    right: -2px;
     margin-right: 8px;
     cursor: pointer;
 }
@@ -67,4 +60,10 @@
 }
 .notification.show {
     opacity: 1;
+}
+a {
+    color: inherit;
+}
+a:visited {
+    color: inherit;
 }

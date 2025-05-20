@@ -1,25 +1,30 @@
 import './Experience.css';
+import { useTranslation } from 'react-i18next';
 
 function Experience() {
+    const { t } = useTranslation();
+
+    const experience = t('experience');
+    const content_manager = t('content_manager');
+    const sewing_enterprise = t('sewing_enterprise');
+    const uploaded_photos = t('uploaded_photos');
+    const ensured = t('ensured');
+    const populated = t('populated');
+    const processed = t('processed');
+    const communicated = t('communicated');
 
     return (
         <div className='experience'>
             <div className='experience-wrapper'>
-                <h2 className='experience-title'>Experience</h2>
+                <h2 className='experience-title'>{experience}</h2>
                 <div className='experience-text'>
-                    <h3 className='experience-text_title'> Content Manager (Website Management) </h3>
-                    <h4 className='experience-text_subtitle'> Sewing Enterprise May 2023 - Aug 2024</h4>
-                    <li className='experience-text_discription'> Uploaded photos and descriptions of new clothing models on the company's 
-                    personal website, developed on the MODX CMS platform.</li>
-                    <li className='experience-text_discription'>Ensured the relevance and attractiveness of content for users.</li>
-                    <li className='experience-text_discription'>Populated online stores with photos and descriptions of new clothing models, 
-                    contributing to increased sales and improved user experience.</li>
-                    <li className='experience-text_discription'>Processed photos using Adobe Photoshop: editing, cropping, 
-                    and enhancing images to achieve high-quality visual content. Utilized various tools and filters to create appealing images.</li>
-                    <li className='experience-text_discription'>Communicated with online store managers via various messaging platforms 
-                    (e.g., WhatsApp, Telegram, Skype) to discuss new arrivals, clarify details, 
-                    and resolve any issues. Maintained effective interaction to ensure timely 
-                    updates on product information.</li>
+                    <h3 className='experience-text_title'> {content_manager} </h3>
+                    <h4 className='experience-text_subtitle'> {sewing_enterprise}</h4>
+                    <li className='experience-text_discription'> {uploaded_photos}</li>
+                    <li className='experience-text_discription'>{ensured}</li>
+                    <li className='experience-text_discription'>{populated}</li>
+                    <li className='experience-text_discription'>{processed}</li>
+                    <li className='experience-text_discription'>{communicated}</li>
                 </div>
             </div>
         </div>

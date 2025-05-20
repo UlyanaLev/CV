@@ -1,10 +1,16 @@
 import React, { useState } from 'react';
 import './Contacts.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocationDot, faEnvelope, faMobileScreen, faCopy } from '@fortawesome/free-solid-svg-icons';
+import { faLocationDot, faEnvelope, faCopy } from '@fortawesome/free-solid-svg-icons';
+import { faTelegram } from '@fortawesome/free-brands-svg-icons';
+import { useTranslation } from 'react-i18next';
 
 function Contacts() {
     const [notification, setNotification] = useState('');
+    const { t } = useTranslation();
+
+    const contact = t('contact');
+    const location = t('location');
 
     const handleCopy = (text: any) => {
         navigator.clipboard.writeText(text).then(() => {
@@ -20,28 +26,24 @@ function Contacts() {
     return (
         <div className='contacts'>
             <div className='contacts-wrapper'>
-                <h2 className='contacts-title'>Contact</h2>
+                <h2 className='contacts-title'>{contact}</h2>
                 <div className='contacts-wrap'>
                     <FontAwesomeIcon icon={faLocationDot} className='contacts-icons'/>
-                    <p className='contacts-description'>Tbilisi, Georgia</p>
+                    <p className='contacts-description'>{location}</p>
                 </div>
                 <div className='contacts-wrap' >
-                    <FontAwesomeIcon icon={faEnvelope} className='contacts-icons'/>
+                    <a href="mailto:ulyana.liauchuk@gmail.com?subject=Тема%20письма&body=Текст%20письма" target='_blank' rel='noopener noreferrer'>
+                        <FontAwesomeIcon icon={faEnvelope} className='contacts-icons'/>
+                    </a>
                     <p className='contacts-description'>ulyana.liauchuk@gmail.com</p>
                     <FontAwesomeIcon icon={faCopy} className='contacts-icons-copy' onClick={() => handleCopy('ulyana.liauchuk@gmail.com')}/>
                 </div>
                 <div className='contacts-wrap'>
-                    <FontAwesomeIcon icon={faMobileScreen} className='contacts-icons'/>
-                    <div className='contacts-phones'>
-                        <div className='contacts-number'>
-                            <div className='contacts-description-number' >+375298259025 BY</div>
-                            <FontAwesomeIcon icon={faCopy} className='contacts-icons-copy' onClick={() => handleCopy('+375298259025')}/>
-                        </div>
-                        <div className='contacts-number'>
-                            <div className='contacts-description-number'>+995595975205 GE</div>
-                            <FontAwesomeIcon icon={faCopy} className='contacts-icons-copy' onClick={() => handleCopy('+995595975205')}/>
-                        </div>
-                    </div>
+                    <a href='https://t.me/ulevchuk' target='_blank' rel='noopener noreferrer'>
+                        <FontAwesomeIcon icon={faTelegram} className='contacts-icons'/>
+                    </a>
+                    <p className='contacts-description' > @ulevchuk</p>
+                    <FontAwesomeIcon icon={faCopy} className='contacts-icons-copy' onClick={() => handleCopy('@ulevchuk')}/>
                 </div>
             </div>
             {notification && (
