@@ -1,12 +1,16 @@
 import './Summary.css';
+import { useTranslation } from 'react-i18next';
 
 function Summary() {
+    const { t } = useTranslation();
+    const summary = t('summary');
+    const summary_text = t('summary_text');
 
     return (
         <div className='summary'>
             <div className='summary-wrapper'>
-                <h2 className='summary-title'>Summary</h2>
-                <p className='summary-text'>A focused, flexible and enthusiastic professional who is looking forward to work in a customer centric environment. An organized, detail-oriented and passionate engineer, who is able to accomplish multiple tasks at ease, without compromising on quality.</p>
+                <h2 className='summary-title'>{summary}</h2>
+                <p className='summary-text'>{summary_text}</p>
             </div>
         </div>
     );

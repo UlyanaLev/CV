@@ -1,0 +1,39 @@
+.education {}
+.education-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+}
+.education-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #313037;
+    font-family: "Bebas Neue";
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #313037;
+}
+.education-text {
+    margin: 8px 8px 8px 0;
+}
+.experience-text_title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #313037;
+    font-family: "Bebas Neue";
+    margin-bottom: 8px;
+}
+.experience-text_subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #313037;
+    font-family: "Bebas Neue";
+    margin-bottom: 8px;
+}
+.experience-text_discription {
+    font-size: 18px;
+    color: #313037;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+    list-style-type: disc;
+}
