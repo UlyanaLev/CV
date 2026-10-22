@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cv/static/css/main.cac77556.css",
+    "main.js": "/cv/static/js/main.49720f22.js",
+    "static/media/header.jpg": "/cv/static/media/header.6324fffb1711558038ab.jpg",
+    "static/media/photo.jpg": "/cv/static/media/photo.4eac93ca49ce87cf8ccd.jpg",
+    "static/media/UlyanaLevchuk.jpg": "/cv/static/media/UlyanaLevchuk.dc534a1969a0298a56a1.jpg",
+    "index.html": "/cv/index.html",
+    "main.cac77556.css.map": "/cv/static/css/main.cac77556.css.map",
+    "main.49720f22.js.map": "/cv/static/js/main.49720f22.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cac77556.css",
+    "static/js/main.49720f22.js"
+  ]
+}
